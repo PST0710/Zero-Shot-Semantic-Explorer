@@ -1,4 +1,4 @@
-## S-FUEL Exploration
+## Zero-Shot-Semantic-Explorer
 
 ### First-person and Third-person perspective(Find Orange) Demo
 <img src="results_visual/gifs/First-person and Third-person perspective (Find Orange).gif" width="800"/>
@@ -29,6 +29,7 @@ ROS driver module for RealSense D435i camera
 
 #### px4ctrl
 The controller px4ctrl is designed based on the DJIN3 flight controller N3ctrl, with modifications to the controller and state machine. For reference, see the N3Ctrl code.
+
 
 #### src/FUEL
 Baseline implementation adapted from FUEL.
