@@ -44,7 +44,7 @@ Zero-shot target programming combined with perceptual understanding
 
 
 ## Quick Start
-This project has been tested on Ubuntu 20.04(ROS Noetic).
+This project has been tested on Ubuntu 20.04(ROS Noetic). 
 
 ### livox driver
 ```
@@ -52,7 +52,7 @@ source FAST_LIO2/fastlio2/devel/setup.bash
 roslaunch livox_ros_driver2 msg_MID360.launch 
 ```
 
-### fastlio2  and odometry remap to vision_pose
+### fastlio2 and odometry remap to vision_pose
 ```
 source FAST_LIO2/fastlio2/devel/setup.bash 
 roslaunch fast_lio mapping_mid360.launch
@@ -75,13 +75,13 @@ roslaunch px4ctrl run_ctrl.launch
 ```
 
 
-### Planner 
+### planner 
 ```
 source catkin_fuel_ws/devel/setup.bash
 roslaunch exploration_manager exploration.launch
 ```
 
-### take off  and land 
+### take off and land 
 ```
 cd px4ctrl_ws/shfiles/
 
