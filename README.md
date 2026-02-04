@@ -1,12 +1,5 @@
 ## Zero-Shot-Semantic-Explorer
 
-### First-person and Third-person perspective(Find Orange) Demo
-<img src="results_visual/gifs/First-person and Third-person perspective (Find Orange).gif" width="800"/>
-
-
-### FUEL(Baseline) with Third-person perspective(No Goal) Demo
-<img src="results_visual/gifs/FUEL(Baseline).gif" width="800"/>
-
 
 #### high_fast_lio2_odom
 High-frequency radar odometer, Features include: 1. Odometry frequency is comparable to radar IMU frequency (200Hz) through IMU interpolation; 2. Mapping the odometry point to the vision pose enables fixed-point flight in Position mode.
