@@ -3,6 +3,7 @@
 ### First-person and Third-person perspective(Find Orange) Demo
 <!-- <img src="results_visual/gifs/First-person and Third-person perspective (Find Orange).gif" width="800"/> -->
 The result is shown in ./results_visual/gifs/First-person and Third-person perspective (Find Orange).gif
+![alt text](./results_visual/main.png)
 
 ### FUEL(Baseline) with Third-person perspective(No Goal) Demo
 <!-- <img src="results_visual/gifs/FUEL(Baseline).gif" width="800"/> -->
