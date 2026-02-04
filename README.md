@@ -2,24 +2,26 @@
 
 ### First-person and Third-person perspective(Find Orange) Demo
 <!-- <img src="results_visual/gifs/First-person and Third-person perspective (Find Orange).gif" width="800"/> -->
-The result is shown in ./results_visual/gifs/First-person and Third-person perspective (Find Orange).gif
-![alt text](./results_visual/main.png)
+The result video is provided in `supplementary.zip`, under `supplementary/Z-SE with first-person and third-person perspective (Find Orange).mp4`.
 
 ### FUEL(Baseline) with Third-person perspective(No Goal) Demo
 <!-- <img src="results_visual/gifs/FUEL(Baseline).gif" width="800"/> -->
-The result is shown in ./results_visual/gifs/FUEL(Baseline).gif
+The result video is provided in `supplementary.zip`, under `supplementary/FUEL(Baseline) with and third perspective(No Goal).mp4`.
+<!-- The result is shown in ./results_visual/gifs/FUEL(Baseline).gif -->
 
 ### First-person perspective(Find Bottle) Demo
 <!-- <img src="results_visual/gifs/First-person perspective(Find Bottle).gif" width="800"/> -->
-The result is shown in ./results_visual/gifs/First-person perspective(Find Bottle).gif
+<!-- The result is shown in ./results_visual/gifs/First-person perspective(Find Bottle).gif -->
+The result video is provided in `supplementary.zip`, under `supplementary/Z-SE with first-person perspective (Find Bottle).mp4`.
 
 ### First-person perspective(Find Chair) Demo
 <!-- <img src="results_visual/gifs/First-person perspective(Find Chair).gif" width="800"/> -->
-The result is shown in ./results_visual/gifs/First-person perspective(Find Chair).gif
+<!-- The result is shown in ./results_visual/gifs/First-person perspective(Find Chair).gif -->
+The result video is provided in `supplementary.zip`, under `supplementary/Z-SE with first-person perspective (Find Chair).mp4`.
 
 ### First-person perspective(Find Orange) Demo
 <!-- <img src="results_visual/gifs/First-person perspective(Find Orange).gif" width="800"/> -->
-The result is shown in ./results_visual/gifs/First-person perspective(Find Orange).gif
+The result video is provided in `supplementary.zip`, under `supplementary/Z-SE with first-person perspective (Find Orange).mp4`.
 
 #### high_fast_lio2_odom
 High-frequency radar odometer, Features include: 1. Odometry frequency is comparable to radar IMU frequency (200Hz) through IMU interpolation; 2. Mapping the odometry point to the vision pose enables fixed-point flight in Position mode.
