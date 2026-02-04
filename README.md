@@ -43,47 +43,61 @@ Combining SAM3's semantic awareness
 Zero-shot target programming combined with perceptual understanding
 
 
-#######################################################################
-## livox driver
+## Quick Start
+This project has been tested on Ubuntu 20.04(ROS Noetic).
+
+### livox driver
+```
 source FAST_LIO2/fastlio2/devel/setup.bash 
 roslaunch livox_ros_driver2 msg_MID360.launch 
+```
 
-## fastlio2  and odometry remap to vision_pose
+### fastlio2  and odometry remap to vision_pose
+```
 source FAST_LIO2/fastlio2/devel/setup.bash 
 roslaunch fast_lio mapping_mid360.launch
+```
 
-## px4  mavros for imu 
+### px4  mavros for imu
+```
 roslaunch mavros px4.launch
+```
 
-# realsense d435i camera 
+### realsense d435i camera 
+```
 source realsense_ws/devel/setup.sh  
 roslaunch realsense2_camera rs_camera.launch
+```
 
-## px4ctrl  node
+### px4ctrl  node
+```
 roslaunch px4ctrl run_ctrl.launch
+```
 
 
-## fuel 
+### Planner 
+```
 source catkin_fuel_ws/devel/setup.bash
 roslaunch exploration_manager exploration.launch
+```
 
-## ego_swarm 
-source catkin_ego_swarm_ws/devel/setup.sh 
-roslaunch ego_planner run_in_exp.launch
-# if use lidar build the map (choose)， if use camera ,not run this line （from camera_init to world）
-roslaunch ego_planner mid360_to_octomap.launch 
-
-## take off 
+### take off  and land 
+```
 cd px4ctrl_ws/shfiles/
 
 sh takeoff.sh
 
 sh land.sh
+```
 
-## rc mode 
-1: stabale
+### rc mode 
+```
+1: stable
+
 2: position
+
 3: offboard
+```
 
 
 
