@@ -1,0 +1,12 @@
+NAME : single.2466.tour
+COMMENT : Length = 2466
+COMMENT : Found by LKH [Keld Helsgaun] Thu Jan  1 08:21:34 1970
+TYPE : TOUR
+DIMENSION : 4
+TOUR_SECTION
+1
+3
+2
+4
+-1
+EOF
