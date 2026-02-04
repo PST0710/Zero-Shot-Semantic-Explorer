@@ -8,18 +8,6 @@
 <img src="results_visual/gifs/FUEL(Baseline).gif" width="800"/>
 
 
-### First-person perspective(Find Bottle) Demo
-<img src="results_visual/gifs/First-person perspective(Find Bottle).gif" width="800"/>
-
-
-### First-person perspective(Find Chair) Demo
-<img src="results_visual/gifs/First-person perspective(Find Chair).gif" width="800"/>
-
-
-### First-person perspective(Find Orange) Demo
-<img src="results_visual/gifs/First-person perspective(Find Orange).gif" width="800"/>
-
-
 #### high_fast_lio2_odom
 High-frequency radar odometer, Features include: 1. Odometry frequency is comparable to radar IMU frequency (200Hz) through IMU interpolation; 2. Mapping the odometry point to the vision pose enables fixed-point flight in Position mode.
 The use of a 200 Hz high-frequency radar odometry is specifically designed to match the px4ctrl control framework, which requires high-rate state estimation feedback for stable and responsive control. Providing odometry at the same frequency as the IMU significantly reduces control latency, improves state consistency, and ensures smooth integration with the px4ctrl position controller.
